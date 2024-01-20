@@ -65,9 +65,9 @@ MIT https://github.com/kzefram/Simple-Notes?tab=MIT-1-ov-file
 
 ## Badges
 
-Achievement: Pull Sharkx3
-Achievement: YOLO
-Achievement: Quickdraw
+- Achievement: Pull Sharkx3
+- Achievement: YOLO
+- Achievement: Quickdraw
 
 ## Features
 
