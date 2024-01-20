@@ -1,11 +1,11 @@
 const router = require('express').Router();
 
 
-const feedbackRouter = require('./db');
+const noteRouter = require('./db');
 
 
 
-router.use('/db', feedbackRouter);
+router.use('/db', noteRouter);
 
 
 module.exports = router;
