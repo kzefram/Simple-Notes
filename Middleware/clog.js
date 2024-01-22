@@ -1,16 +1,18 @@
 const clog = (req, res, next) => {
-    const fgOrange = '\x1b[38;5;205m%s\x1b[0m';
+    const Orange = '\x1b[38;5;205m%s\x1b[0m';
+    const yellow = '\x1b[33m';
+    const cyan = '\x1b[36m';
     switch (req.method) {
       case 'GET': {
-        console.info(`📗 ${fgOrange}${req.method} request to ${req.path}`);
+        console.info(`📗 ${Orange}${req.method} request to ${req.path}`);
         break;
       }
       case 'POST': {
-        console.info(`📘 ${fgOrange}${req.method} request to ${req.path}`);
+        console.info(`📘 ${yellow}${req.method} request to ${req.path}`);
         break;
       }
       default:
-        console.log(`📙${fgOrange}${req.method} request to ${req.path}`);
+        console.log(`📙${cyan}${req.method} request to ${req.path}`);
     }
   
     next();

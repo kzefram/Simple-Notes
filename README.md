@@ -42,6 +42,7 @@
 ## Dependencies
 
 - "express": "^4.18.2"
+- "nodemon": "^3.0.3"
 
 ## Installation
 
@@ -49,6 +50,7 @@ There is some installation required. At your command prompt or bash prompt, ente
 - npm init --y
 - npm install
 - npm i express
+- npm install --save-dev nodemon
 
 ## Usage
 
