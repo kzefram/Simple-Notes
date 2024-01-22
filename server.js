@@ -1,7 +1,9 @@
 const express = require('express');
 const path = require('path');
-const  clog  = require('/middleware/clog.js');
+const  clog  = require('./Middleware/clog.js');
 const api = require('./routes/index.js');
+const notes = require('./routes/notes.js');
+const fb = express.Router();
 
 const PORT = process.env.PORT || 3001;
 
