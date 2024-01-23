@@ -43,13 +43,18 @@
 
 - "express": "^4.18.2"
 - "nodemon": "^3.0.3"
+- "body-parser": "^1.20.2",
+- "uuid": "^9.0.1"
 
 ## Installation
 
-There is some installation required. At your command prompt or bash prompt, enter the following commands in order after downloading:
+There is some installation required for the first opening. At your command prompt or bash prompt, enter the following commands in order after downloading:
+(Using version: npm@9.5.0)
 - npm init --y
 - npm install
 - npm i express
+- npm i body-parser
+- npm i uuid
 - npm install --save-dev nodemon
 
 ## Usage
